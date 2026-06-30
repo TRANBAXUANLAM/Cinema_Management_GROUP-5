@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
-        boolean[][] seatingMap = new boolean[5][5]; 
+        boolean[][] seatingMap = new boolean[5][5]; // Sơ đồ ghế 5x5
         
         while (true) {
             System.out.println("\n--- HỆ THỐNG ĐẶT VÉ XEM PHIM MINI ---");
@@ -25,24 +24,22 @@ public class Main {
             
             switch (choice) {
                 case 1:
-                    // Thành viên 1 gọi hàm hiển thị phim ở đây
                     MovieManager.displayMovies();
                     break;
                 case 2:
-                    // Thành viên 2 gọi hàm đặt vé ở đây
                     BookingManager.bookSeat(seatingMap, scanner);
                     break;
                 case 3:
-                    // Thành viên 2 gọi hàm hủy vé ở đây
                     BookingManager.cancelSeat(seatingMap, scanner);
                     break;
                 case 4:
-                    // Thành viên 3 gọi hàm tính tiền ở đây
+                    // Gọi hàm xử lý của bạn
                     PaymentManager.calculateTotal(seatingMap);
                     break;
                 default:
                     System.out.println("Lựa chọn không hợp lệ!");
             }
         }
+        scanner.close();
     }
 }
