@@ -7,7 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         boolean[][] seatingMap = new boolean[5][5]; // Sơ đồ ghế 5x5
         
-        while (true) {
+        while (true)   {
             System.out.println("\n--- HỆ THỐNG ĐẶT VÉ XEM PHIM MINI ---");
             System.out.println("1. Xem danh sách phim và suất chiếu");
             System.out.println("2. Xem sơ đồ ghế và Đặt vé");

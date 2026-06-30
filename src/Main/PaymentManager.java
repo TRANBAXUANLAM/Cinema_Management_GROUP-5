@@ -28,5 +28,5 @@ public class PaymentManager {
         System.out.println("-----------------------------------");
         System.out.println("Tổng số lượng ghế đã đặt: " + countBooked);
         System.out.println("TỔNG TIỀN PHẢI THANH TOÁN: " + totalAmount + " VND");
-        }
+          }
 }
