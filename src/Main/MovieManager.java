@@ -15,5 +15,5 @@ public class MovieManager {
         System.out.println("3. Ma Da");
         System.out.println("   [Suất chiếu: 20:00] | [Giá vé: 90.000 VND]");
         System.out.println("=============================================");
-    }
+      }
 }

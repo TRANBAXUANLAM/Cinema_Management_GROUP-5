@@ -48,6 +48,6 @@ public class BookingManager {
                 System.out.print(map[i][j] ? "[X] " : "[O] ");
             }
             System.out.println();
-        }
+           }
     }
 }
